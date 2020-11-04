@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
 
         MainButton.setOnClickListener{
-        mainViewModel.onClickedIncrement(emailUser: "")
+        mainViewModel.onClickedIncrement("")
         }
         mainViewModel.counter.observe(this, Observer {
             value -> MainText.text = value.toString()

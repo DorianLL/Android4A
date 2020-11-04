@@ -13,7 +13,7 @@ class EsieaApplication : Application(){
 
             androidContext(this@EsieaApplication)
 
-            modules(presentationModule)
+            modules(presentationModule, domainModule, dataModule)
         }
 
     }
