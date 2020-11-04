@@ -15,9 +15,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //mainViewModel.onStart()
+
         MainButton.setOnClickListener{
-        mainViewModel.onClickedIncrement()
+        mainViewModel.onClickedIncrement(emailUser: "")
         }
         mainViewModel.counter.observe(this, Observer {
             value -> MainText.text = value.toString()
