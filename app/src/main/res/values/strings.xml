@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Android4A</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="dialog_login_title">Error while trying to connect</string>
+    <string name="dialog_login_message">The email or the password isn\'t correct</string>
+    <string name="accept">Ok</string>
+    <string name="taken_email">Email already taken</string>
+    <string name="logout">Logout</string>
+    <string name="success">Success</string>
+    <string name="created_account">The account has been created successfully</string>
+    <string name="more_info">More info</string>
+    <string name="switch_dark_mode">Switch dark mode</string>
+    <string name="search">Search</string>
+    <string name="error_search">The search field is empty</string>
+    <string name="search_dialog_error">Error while tying to search</string>
+    <string name="no_network">No Network</string>
+    <string name="error_register_dialog">Error while trying to register</string>
 </resources>
